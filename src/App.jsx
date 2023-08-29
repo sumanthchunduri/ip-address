@@ -10,10 +10,10 @@ function App() {
   );
 
   if (isLoading) {
-    return <div>Getting IP Information</div>;
+    return <div className="main">Getting IP Information</div>;
   }
   if (error) {
-    return <div>somthing went wrong, please refresh the page</div>
+    return <div className="main">somthing went wrong, please refresh the page</div>
   }
   return (
     <>
