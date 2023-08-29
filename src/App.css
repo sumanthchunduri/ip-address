@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    min-height: 100dvh;
+}
+.main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
