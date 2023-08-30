@@ -7,3 +7,12 @@ body {
     place-content: center;
     height: 100vh;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+    }
+    .main {
+        color: white;
+    }
+}
