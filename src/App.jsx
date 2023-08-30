@@ -13,7 +13,7 @@ function App() {
     return <div className="main">Getting IP Information</div>;
   }
   if (error) {
-    return <div className="main">somthing went wrong, please refresh the page</div>
+    return <div className="main">something went wrong, please refresh the page</div>
   }
   return (
     <>
